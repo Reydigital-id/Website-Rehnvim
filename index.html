@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rehnvim</title>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Desain <span>Rehnvim</span></a>
+      <div class="navbar-nav">
+        <a href="#home" class="at">Home</a>
+        <a href="#about" class="at">Tentang Kami</a>
+        <a href="#produk" class="at">Produk</a>
+        <a href="#contact" class="at">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search" class="li"><i data-feather="search"></i>
+        <a href="#" id="shopping-cart" class="li"
+        ><i data-feather="shopping-cart"></i
+          ></a>
+        </div>
+        <a href="#" id="menu" class="li"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Tempatnya Pakaian <span>Nyaman dan Keren</span></h1>
+        <p>
+          Jadikan dirimu nyaman dengan Pakaian hangat yang nyaman. Rehnvim
+          menemanimu dihari yang cerah!
+        </p>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero section End -->
+
+    <!-- About section Start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/header.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa harus memilih Pakaian di toko kami?</h3>
+          <p>
+            Karena kami adalah brand yang selalu membuat pakaian dengan mengutamakan fungsi kenyamanan untuk dipakai oleh anda.
+          </p>
+          <p>
+            Kami selalu mengutamakan kualitas bahan yang kami gunakan, selain itu kami juga selalu mengutamakan desain yang simple dan elegan untuk digunakan sehari-hari.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About section End -->
+
+    <!-- Menu section Start -->
+    <section id="produk" class="produk">
+      <h2><span>Produk </span>Kami</h2>
+      <p>
+        Kami menyediakan berbagai macam produk yang nyaman dipakai. Berikut beberapa contoh pakaian terbaik kami.
+      </p>
+
+      <div class="row">
+        <div class="produk-card">
+          <img
+            src="img/1.jpg"
+            alt="Kaos putih simple"
+            class="produk-card-img"
+          />
+          <h3 class="produk-card-title">- Kaos Putih -</h3>
+          <p class="produk-card-price">IDR 50K</p>
+        </div>
+
+        <div class="produk-card">
+          <img
+            src="img/1.jpg"
+            alt="Kaos putih simple"
+            class="produk-card-img"
+          />
+          <h3 class="produk-card-title">- Kaos Putih -</h3>
+          <p class="produk-card-price">IDR 50K</p>
+        </div>
+        <div class="produk-card">
+          <img
+            src="img/1.jpg"
+            alt="Kaos putih simple"
+            class="produk-card-img"
+          />
+          <h3 class="produk-card-title">- Kaos Putih -</h3>
+          <p class="produk-card-price">IDR 50K</p>
+        </div>
+        <div class="produk-card">
+          <img
+            src="img/1.jpg"
+            alt="Kaos putih simple"
+            class="produk-card-img"
+          />
+          <h3 class="produk-card-title">- Kaos Putih -</h3>
+          <p class="produk-card-price">IDR 50K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu section end-->
+
+    <!-- Contact section start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak </span>Kami</h2>
+      <p>
+        Jika ada pertanyaan atau ingin melakukan pemesanan, silahkan hubungi kami melalui form dibawah ini. Isi data diri anda terlebih dahulu agar kami mengenali anda.
+      </p>
+      <div class="row">
+        <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254832.50533378648!2d98.50467659594572!3d3.642614145348024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131cc1c3eb2fd%3A0x23d431c8a6908262!2sMedan%2C%20Kota%20Medan%2C%20Sumatera%20Utara!5e0!3m2!1sid!2sid!4v1753427934183!5m2!1sid!2sid"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form class='form' action="">
+          <div class="input-grup">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" class="input">
+          </div>
+          <div class="input-grup">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" class=input>
+          </div>
+          <div class="input-grup">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No HP" class="input">
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="social">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="youtube"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#produk">Produk Kami</a>
+        <a href="#contact">Kontak Kami</a>
+      </div>
+
+      <div class="credit">
+        <p>Create by <a style="color: rgb(17, 17, 17); font-weight: bold;" href="#">Reydigital.id</a>. | &copy; 2025.<span id="year"></span></p>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
